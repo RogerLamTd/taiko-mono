@@ -38,7 +38,7 @@ jobs:
 
   test-eventindexer:
     runs-on: [ubuntu-latest]
-    if: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft == false }}
+    if: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft == false  && !startsWith(github.head_ref, 'release-please')}}
     needs: lint-eventindexer
     steps:
       - name: Cancel Previous Runs
@@ -66,7 +66,7 @@ jobs:
 
   push-eventindexer-docker-image:
     # Skip dependabot PRs
-    if: ${{ github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/dependabot/') }}
+    if: ${{ github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/dependabot/') && !startsWith(github.head_ref, 'release-please') }}
     name: Build and push docker image
     runs-on: [ubuntu-latest]
 
