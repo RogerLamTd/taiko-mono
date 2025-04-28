@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.6.2](https://github.com/RogerLamTd/taiko-mono/compare/fork-diff-v0.6.1...fork-diff-v0.6.2) (2025-01-03)
+
+
+### Chores
+
+* **main:** release fork-diff 0.6.1 ([#18207](https://github.com/RogerLamTd/taiko-mono/issues/18207)) ([287620f](https://github.com/RogerLamTd/taiko-mono/commit/287620f20c510d5df821009f93f187cdeaf3e9d5))
+
+
+### Documentation
+
+* **fork-diff:** update geth fork diff for upstream merge ([#18206](https://github.com/RogerLamTd/taiko-mono/issues/18206)) ([cf303b6](https://github.com/RogerLamTd/taiko-mono/commit/cf303b6ae2ab3588721fee2bc9d98ba2c20ecff9))
+* **repo:** improve grammar and readability ([#18501](https://github.com/RogerLamTd/taiko-mono/issues/18501)) ([61994ff](https://github.com/RogerLamTd/taiko-mono/commit/61994ffefcf29981beb567b84a3a55706300cf13))
+
+
+### Workflow
+
+* **protocol:** trigger patch release (1.10.1) ([#18358](https://github.com/RogerLamTd/taiko-mono/issues/18358)) ([f4f4796](https://github.com/RogerLamTd/taiko-mono/commit/f4f4796488059b02c79d6fb15170df58dd31dc4e))
+
+
+### Build
+
+* **deps:** bump github.com/stretchr/testify from 1.9.0 to 1.10.0 ([#18539](https://github.com/RogerLamTd/taiko-mono/issues/18539)) ([79f3fab](https://github.com/RogerLamTd/taiko-mono/commit/79f3fab5f1d1ec1bb4ee18afb9268b622e894780))
+* **deps:** bump golang.org/x/sync from 0.9.0 to 0.10.0 ([#18560](https://github.com/RogerLamTd/taiko-mono/issues/18560)) ([3d51970](https://github.com/RogerLamTd/taiko-mono/commit/3d51970aa0953bbfecaeebf76ea7e664c875c0e4))
+
 ## [0.6.1](https://github.com/taikoxyz/taiko-mono/compare/fork-diff-v0.6.0...fork-diff-v0.6.1) (2024-10-04)
 
 
