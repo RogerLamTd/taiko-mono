@@ -14,7 +14,7 @@ import "./IProveBatches.sol";
 /// - Block proposals and proofs are asynchronous. Proofs are not available at proposal time,
 ///   unlike Taiko Gwyneth, which assumes synchronous composability.
 /// - Proofs are presumed error-free and thoroughly validated, with proof type management
-///   delegated to IVerifier contracts.
+///   delegated to IVerifier contracts
 ///
 /// @dev Registered in the address resolver as "taiko".
 /// @custom:security-contact security@taiko.xyz
