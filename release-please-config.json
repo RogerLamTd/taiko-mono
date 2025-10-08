@@ -70,13 +70,25 @@
     "packages/relayer": {},
     "packages/taiko-client": {
       "package-name": "taiko-alethia-client",
-      "extra-files": ["internal/version/version.go"]
+      "extra-files": [
+        {
+          "type": "generic",
+          "path": "internal/version/version.go"
+        }
+      ]
     },
     "packages/taiko-client-rs": {
       "package-name": "taiko-alethia-client-rs",
       "release-type": "simple",
       "release-as": "2.0.0",
-      "component": "taiko-alethia-client-rs"
+      "component": "taiko-alethia-client-rs",
+      "extra-files": [
+        {
+          "type": "toml",
+          "path": "Cargo.toml",
+          "jsonpath": "$.workspace.package.version"
+        }
+      ]
     },
     "packages/ui-lib": {}
   }
