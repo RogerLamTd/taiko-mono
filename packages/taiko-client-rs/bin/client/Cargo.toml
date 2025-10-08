@@ -1,6 +1,6 @@
 [package]
 name = "taiko-client"
-version.workspace = true
+version = "2.0.0"
 description = "Rust client implementation for Taiko protocol"
 
 edition.workspace = true
