@@ -70,20 +70,12 @@
     "packages/relayer": {},
     "packages/taiko-client": {
       "package-name": "taiko-alethia-client",
-      "extra-files": [
-        {
-          "type": "generic",
-          "path": "internal/version/version.go"
-        }
-      ]
+      "extra-files": ["internal/version/version.go"]
     },
     "packages/taiko-client-rs": {
       "package-name": "taiko-alethia-client-rs",
       "release-type": "rust",
-      "extra-files": [
-        "Cargo.toml",
-        "bin/client/Cargo.toml"
-      ]
+      "extra-files": ["Cargo.toml", "bin/client/Cargo.toml"]
     },
     "packages/ui-lib": {}
   }

@@ -13,7 +13,7 @@ concurrency:
 jobs:
   merge-gatekeeper:
     if: ${{ github.event_name == 'pull_request' && github.event.pull_request.draft == false }}
-    runs-on: [arc-runner-set]
+    runs-on: [ubuntu-latest]
     permissions:
       checks: read
       statuses: read
@@ -21,6 +21,6 @@ jobs:
       - name: Run Merge Gatekeeper
         uses: upsidr/merge-gatekeeper@v1
         with:
-          timeout: 1800 
+          timeout: 1800
           interval: 60
           token: ${{ secrets.GITHUB_TOKEN }}
