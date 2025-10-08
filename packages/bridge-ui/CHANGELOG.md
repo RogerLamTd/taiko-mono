@@ -1,5 +1,28 @@
 # Changelog
 
+## [2.16.0](https://github.com/RogerLamTd/taiko-mono/compare/bridge-ui-v2.15.0...bridge-ui-v2.16.0) (2025-10-08)
+
+
+### Features
+
+* **bridge-ui:** add solverfee to type ([#19667](https://github.com/RogerLamTd/taiko-mono/issues/19667)) ([8a62601](https://github.com/RogerLamTd/taiko-mono/commit/8a626010ddc57981fc044aeb94dbb0049b7f0ee5))
+* **bridge-ui:** relayer component retry status ([#19390](https://github.com/RogerLamTd/taiko-mono/issues/19390)) ([e634dcc](https://github.com/RogerLamTd/taiko-mono/commit/e634dcce4effe0d7899a082a4aa56154971ce54a))
+
+
+### Bug Fixes
+
+* **bridge-ui:** correct error message in beforeReleasing method ([#20245](https://github.com/RogerLamTd/taiko-mono/issues/20245)) ([69a0e66](https://github.com/RogerLamTd/taiko-mono/commit/69a0e66dc3d2ffa61f05485a88ecd9f235c9d90e))
+* **bridge-ui:** fix grammar issues and typos ([#20174](https://github.com/RogerLamTd/taiko-mono/issues/20174)) ([31374a6](https://github.com/RogerLamTd/taiko-mono/commit/31374a6647b4d65f337f1e5ef749314a0893f6ec))
+* **bridge-ui:** fix issue where TokenInput quota validation always returning false ([#19814](https://github.com/RogerLamTd/taiko-mono/issues/19814)) ([a36f99f](https://github.com/RogerLamTd/taiko-mono/commit/a36f99f1e820e52e12f97f804837c2828e941a41))
+* **bridge-ui:** vercel deployment and wallet connection improvements ([#20256](https://github.com/RogerLamTd/taiko-mono/issues/20256)) ([9517737](https://github.com/RogerLamTd/taiko-mono/commit/95177371bf839a312d2dc76d28c6a6ffeb9dd1f7))
+* **repo:** correct typos across relayer, bridge-ui, and ui-lib ([#20337](https://github.com/RogerLamTd/taiko-mono/issues/20337)) ([0c8ba23](https://github.com/RogerLamTd/taiko-mono/commit/0c8ba23fb859388bff52fc208e31e0c73a66a2cf))
+
+
+### Chores
+
+* **bridge-ui:** add comprehensive logging to CustomTokenService ([#19998](https://github.com/RogerLamTd/taiko-mono/issues/19998)) ([2f5bc85](https://github.com/RogerLamTd/taiko-mono/commit/2f5bc859befeb18fc9be4b0503b7c9a4cb1fef5f))
+* **main:** release bridge-ui 2.15.0 ([#19437](https://github.com/RogerLamTd/taiko-mono/issues/19437)) ([a8cca76](https://github.com/RogerLamTd/taiko-mono/commit/a8cca764488ba559798cb0591dc170b3dbe99cb5))
+
 ## [2.15.0](https://github.com/taikoxyz/taiko-mono/compare/bridge-ui-v2.14.0...bridge-ui-v2.15.0) (2025-09-26)
 
 
