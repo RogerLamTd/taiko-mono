@@ -59,6 +59,12 @@
     }
   ],
   "separate-pull-requests": true,
+  "plugins": [
+    {
+      "type": "cargo-workspace",
+      "merge": false
+    }
+  ],
   "packages": {
     "packages/bridge-ui": {},
     "packages/docs-site": {},
@@ -76,14 +82,7 @@
       "package-name": "taiko-alethia-client-rs",
       "release-type": "rust",
       "release-as": "2.0.0",
-      "component": "taiko-alethia-client-rs",
-      "extra-files": [
-        {
-          "type": "toml",
-          "path": "Cargo.toml",
-          "jsonpath": "$.workspace.package.version"
-        }
-      ]
+      "component": "taiko-alethia-client-rs"
     },
     "packages/ui-lib": {}
   }
