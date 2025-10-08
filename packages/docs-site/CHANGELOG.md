@@ -1,5 +1,73 @@
 # Changelog
 
+## [1.32.0](https://github.com/RogerLamTd/taiko-mono/compare/docs-site-v1.31.2...docs-site-v1.32.0) (2025-10-08)
+
+
+### Features
+
+* **docs-site:** general docs update ([#19624](https://github.com/RogerLamTd/taiko-mono/issues/19624)) ([8910049](https://github.com/RogerLamTd/taiko-mono/commit/89100490677de42d214ca6f27c89b160ec86b5f7))
+* **docs-site:** post-pacaya docs-site rehaul ([#19549](https://github.com/RogerLamTd/taiko-mono/issues/19549)) ([f57bb48](https://github.com/RogerLamTd/taiko-mono/commit/f57bb481ac9f33743421ccaa41c32eac5949040d))
+* **docs-site:** update docs for based preconfs, node running, removal of proverset ([#19928](https://github.com/RogerLamTd/taiko-mono/issues/19928)) ([1a4b568](https://github.com/RogerLamTd/taiko-mono/commit/1a4b5680e9a78f9e4feb3ffb686a8d8aab2e16e0))
+* **protocol:** design and implement Shasta upgrade ([#19882](https://github.com/RogerLamTd/taiko-mono/issues/19882)) ([2bc26e7](https://github.com/RogerLamTd/taiko-mono/commit/2bc26e7478d91556ed6923e55ed9d112288d885c))
+
+
+### Bug Fixes
+
+* **docs-site:** fix astro.config.ts ([#19929](https://github.com/RogerLamTd/taiko-mono/issues/19929)) ([dd854a7](https://github.com/RogerLamTd/taiko-mono/commit/dd854a79b77f81bcc1c38b5a26273e4fd6fe3937))
+* **docs-site:** fix eth-docker docs link in run-an-ethereum-testnet-node.mdx ([#19595](https://github.com/RogerLamTd/taiko-mono/issues/19595)) ([d010b6e](https://github.com/RogerLamTd/taiko-mono/commit/d010b6e211f28e4ee0a2302141fea8ec6382def8))
+* **docs-site:** fix incorrect link ([#19565](https://github.com/RogerLamTd/taiko-mono/issues/19565)) ([4ae5483](https://github.com/RogerLamTd/taiko-mono/commit/4ae54830e40435fd6728a9bbc5d9df54c0796e44))
+* **docs-site:** incorrect type definition for `pages` ([#20134](https://github.com/RogerLamTd/taiko-mono/issues/20134)) ([5bde0b1](https://github.com/RogerLamTd/taiko-mono/commit/5bde0b1a21650df0ce404577528e0f0f2c94142f))
+* **docs-site:** minor identifier mismatch ([#19876](https://github.com/RogerLamTd/taiko-mono/issues/19876)) ([288ab83](https://github.com/RogerLamTd/taiko-mono/commit/288ab8368601ca2c5fafbd8b6e73f45092e61ff7))
+* **docs-site:** modify image links for GitHub rendering ([#19997](https://github.com/RogerLamTd/taiko-mono/issues/19997)) ([7bfd5fb](https://github.com/RogerLamTd/taiko-mono/commit/7bfd5fb8dc0717b3600048000dd73ef3fda23757))
+* **docs-site:** reflect actual live releases ([#19579](https://github.com/RogerLamTd/taiko-mono/issues/19579)) ([52c08af](https://github.com/RogerLamTd/taiko-mono/commit/52c08afc6cc976855865b854ab62eeb6372849e9))
+* **docs-site:** update ethstaker org name ([#19652](https://github.com/RogerLamTd/taiko-mono/issues/19652)) ([aa76bb3](https://github.com/RogerLamTd/taiko-mono/commit/aa76bb3b4c1268fae687da48c58f85f832a371ec))
+* **docs-site:** use "preconfer" to replace "preconfirmer" ([#19616](https://github.com/RogerLamTd/taiko-mono/issues/19616)) ([288f61e](https://github.com/RogerLamTd/taiko-mono/commit/288f61ed266521614e207923aaacc4c7da0cbb85))
+
+
+### Chores
+
+* **docs-site:** add diff ([#19399](https://github.com/RogerLamTd/taiko-mono/issues/19399)) ([2fab924](https://github.com/RogerLamTd/taiko-mono/commit/2fab924417b0c7c3bf80c1b8667d82b006bb6ba6))
+* **docs-site:** add rpc, oracle and aa providers ([#19835](https://github.com/RogerLamTd/taiko-mono/issues/19835)) ([bd6fe92](https://github.com/RogerLamTd/taiko-mono/commit/bd6fe925bd65b8c320e048d4cc425b6cd153161f))
+* **docs-site:** add supra oracle ([#20358](https://github.com/RogerLamTd/taiko-mono/issues/20358)) ([51e6ebc](https://github.com/RogerLamTd/taiko-mono/commit/51e6ebc9343d27b075d6ac0bcb54b09b808d0f15))
+* **docs-site:** image link consistency ([#20018](https://github.com/RogerLamTd/taiko-mono/issues/20018)) ([9355653](https://github.com/RogerLamTd/taiko-mono/commit/9355653d52f5696e05e74809f391feeae1eae92a))
+* **docs-site:** missed config ([#19853](https://github.com/RogerLamTd/taiko-mono/issues/19853)) ([89f14c3](https://github.com/RogerLamTd/taiko-mono/commit/89f14c3bf19e816ee4630b31a38f15cdaa7716e6))
+* **docs-site:** record alethia addresses in contract-addresses page ([#19622](https://github.com/RogerLamTd/taiko-mono/issues/19622)) ([95c7f38](https://github.com/RogerLamTd/taiko-mono/commit/95c7f384c45f9a0b72d148559f9cc126c7d420c4))
+* **docs-site:** update api3 description ([#19590](https://github.com/RogerLamTd/taiko-mono/issues/19590)) ([55962b3](https://github.com/RogerLamTd/taiko-mono/commit/55962b36faed62f7fbcfd502cf768805fc072ade))
+* **docs-site:** update explorer for button ([#20269](https://github.com/RogerLamTd/taiko-mono/issues/20269)) ([4aa8421](https://github.com/RogerLamTd/taiko-mono/commit/4aa8421851730df01d702ead742386f1bf4675c3))
+* **docs-site:** update guides for based preconfs upgrade ([#19790](https://github.com/RogerLamTd/taiko-mono/issues/19790)) ([4900ed9](https://github.com/RogerLamTd/taiko-mono/commit/4900ed9f7311899a228e90ecb8a84610accb989f))
+* **docs-site:** update proverset guide for pacaya ([#19499](https://github.com/RogerLamTd/taiko-mono/issues/19499)) ([7a95c5a](https://github.com/RogerLamTd/taiko-mono/commit/7a95c5accd5f7a683454a675cdcac8d2cf3d8a6a))
+* **docs-site:** update stat ([#19718](https://github.com/RogerLamTd/taiko-mono/issues/19718)) ([d64d18c](https://github.com/RogerLamTd/taiko-mono/commit/d64d18cf310af86fc61f04ec11b5381c21b4dc2a))
+* **main:** release docs-site 1.27.5 ([#19270](https://github.com/RogerLamTd/taiko-mono/issues/19270)) ([f636f19](https://github.com/RogerLamTd/taiko-mono/commit/f636f192ad64d2a555e06789808093cdea8f0ba9))
+* **main:** release docs-site 1.27.6 ([#19500](https://github.com/RogerLamTd/taiko-mono/issues/19500)) ([05f241d](https://github.com/RogerLamTd/taiko-mono/commit/05f241d855e5049fa3aac2e644bd56e02afce9ef))
+* **main:** release docs-site 1.28.0 ([#19552](https://github.com/RogerLamTd/taiko-mono/issues/19552)) ([0026627](https://github.com/RogerLamTd/taiko-mono/commit/0026627b064c268b110c34e7024d44e1be5e4631))
+* **main:** release docs-site 1.28.1 ([#19575](https://github.com/RogerLamTd/taiko-mono/issues/19575)) ([3281921](https://github.com/RogerLamTd/taiko-mono/commit/3281921f720c3a7a1c2afff6aaf575644f33c6b1))
+* **main:** release docs-site 1.28.2 ([#19591](https://github.com/RogerLamTd/taiko-mono/issues/19591)) ([a90551d](https://github.com/RogerLamTd/taiko-mono/commit/a90551d6720867095bb5f403aa8ba16945ecba1f))
+* **main:** release docs-site 1.28.3 ([#19600](https://github.com/RogerLamTd/taiko-mono/issues/19600)) ([1f510a6](https://github.com/RogerLamTd/taiko-mono/commit/1f510a6cf4f850de12664adcfb0bb894f2473cbd))
+* **main:** release docs-site 1.29.0 ([#19617](https://github.com/RogerLamTd/taiko-mono/issues/19617)) ([7958b09](https://github.com/RogerLamTd/taiko-mono/commit/7958b09d05fdb1a0e2230e08f92b8aaf73a5c903))
+* **main:** release docs-site 1.29.1 ([#19637](https://github.com/RogerLamTd/taiko-mono/issues/19637)) ([a14b141](https://github.com/RogerLamTd/taiko-mono/commit/a14b141863281513a93778fe8e06943e159bbce5))
+* **main:** release docs-site 1.29.2 ([#19657](https://github.com/RogerLamTd/taiko-mono/issues/19657)) ([9f809fd](https://github.com/RogerLamTd/taiko-mono/commit/9f809fde60703ebc0ca18315315038da8957abcb))
+* **main:** release docs-site 1.29.3 ([#19818](https://github.com/RogerLamTd/taiko-mono/issues/19818)) ([492fdf8](https://github.com/RogerLamTd/taiko-mono/commit/492fdf8941997dcceed9115c6ac7424ed6f5d7a0))
+* **main:** release docs-site 1.29.4 ([#19850](https://github.com/RogerLamTd/taiko-mono/issues/19850)) ([a1980e0](https://github.com/RogerLamTd/taiko-mono/commit/a1980e06f649321e93ab1ab54541e6b99c5be9e6))
+* **main:** release docs-site 1.29.5 ([#19854](https://github.com/RogerLamTd/taiko-mono/issues/19854)) ([7fe1f69](https://github.com/RogerLamTd/taiko-mono/commit/7fe1f6912e759ee635ce277c048073028b91f900))
+* **main:** release docs-site 1.29.6 ([#19877](https://github.com/RogerLamTd/taiko-mono/issues/19877)) ([060da61](https://github.com/RogerLamTd/taiko-mono/commit/060da6104188117bdfa7f1053d0d0d0079847e2e))
+* **main:** release docs-site 1.30.0 ([#19930](https://github.com/RogerLamTd/taiko-mono/issues/19930)) ([15287bc](https://github.com/RogerLamTd/taiko-mono/commit/15287bc5332691d36f3cb4edc6f08d257e3ec284))
+* **main:** release docs-site 1.31.0 ([#19991](https://github.com/RogerLamTd/taiko-mono/issues/19991)) ([b428009](https://github.com/RogerLamTd/taiko-mono/commit/b428009be1e938e5bf279580ac7712e0a301bad1))
+* **main:** release docs-site 1.31.1 ([#20115](https://github.com/RogerLamTd/taiko-mono/issues/20115)) ([5dbfaed](https://github.com/RogerLamTd/taiko-mono/commit/5dbfaed92635191cbec8bbf65bf16e8f01d4796b))
+* **main:** release docs-site 1.31.2 ([#20367](https://github.com/RogerLamTd/taiko-mono/issues/20367)) ([2174550](https://github.com/RogerLamTd/taiko-mono/commit/2174550f2878a461aa23943021cf361c440b17f8))
+* **repo, docs-site:** remove dead link ([#19816](https://github.com/RogerLamTd/taiko-mono/issues/19816)) ([f9f7bbb](https://github.com/RogerLamTd/taiko-mono/commit/f9f7bbb447b5a6c1cc4fac3ae733821f6a17380f))
+* **repo:** fix broken and dead links across the repository ([#19986](https://github.com/RogerLamTd/taiko-mono/issues/19986)) ([e8e0814](https://github.com/RogerLamTd/taiko-mono/commit/e8e0814601cdbcdeb45350afc144d55cd15bf37e))
+
+
+### Documentation
+
+* **docs-site:** corrected IP address ([#20116](https://github.com/RogerLamTd/taiko-mono/issues/20116)) ([5803f33](https://github.com/RogerLamTd/taiko-mono/commit/5803f33bdf3bd6d76c8de99b36315aa029910b37))
+* **docs-site:** fix ERC-4337 doc link ([#20111](https://github.com/RogerLamTd/taiko-mono/issues/20111)) ([f13659c](https://github.com/RogerLamTd/taiko-mono/commit/f13659c4464a2b4aa748756eda8439a53f41247e))
+* **docs-site:** fix grammar and typos in documentation ([#20173](https://github.com/RogerLamTd/taiko-mono/issues/20173)) ([f029957](https://github.com/RogerLamTd/taiko-mono/commit/f02995731f89ab8c1642e11e7f891dd05af9fb5d))
+* **docs-site:** fix typos ([#20138](https://github.com/RogerLamTd/taiko-mono/issues/20138)) ([dfe19eb](https://github.com/RogerLamTd/taiko-mono/commit/dfe19ebf50de39ac175b41a58684a6b443ae4e85))
+* **docs-site:** new Taiko Hoodi testnet (code name Tolba) ([#20182](https://github.com/RogerLamTd/taiko-mono/issues/20182)) ([6a82488](https://github.com/RogerLamTd/taiko-mono/commit/6a824882d71d90af3ba2de423e45768a8cb806da))
+* **docs-site:** typo fix ([#20077](https://github.com/RogerLamTd/taiko-mono/issues/20077)) ([9232838](https://github.com/RogerLamTd/taiko-mono/commit/9232838a0f580567112bad253f997bec7c4a4eab))
+* **docs-site:** update based-preconfirmation.mdx to avoid legal implications ([#19612](https://github.com/RogerLamTd/taiko-mono/issues/19612)) ([a8f600e](https://github.com/RogerLamTd/taiko-mono/commit/a8f600e269594ce8b923e4f5ad1da573b96160a5))
+
 ## [1.31.2](https://github.com/taikoxyz/taiko-mono/compare/docs-site-v1.31.1...docs-site-v1.31.2) (2025-10-07)
 
 
