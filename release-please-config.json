@@ -59,6 +59,12 @@
     }
   ],
   "separate-pull-requests": true,
+  "plugins": [
+    {
+      "type": "cargo-workspace",
+      "merge": false
+    }
+  ],
   "packages": {
     "packages/bridge-ui": {},
     "packages/docs-site": {},
@@ -76,43 +82,7 @@
       "package-name": "taiko-alethia-client-rs",
       "release-type": "rust",
       "release-as": "2.0.0",
-      "extra-files": [
-        {
-          "type": "toml",
-          "path": "Cargo.toml",
-          "jsonpath": "$.workspace.package.version"
-        },
-        {
-          "type": "toml",
-          "path": "bin/client/Cargo.toml",
-          "jsonpath": "$.package.version"
-        },
-        {
-          "type": "toml",
-          "path": "crates/bindings/Cargo.toml",
-          "jsonpath": "$.package.version"
-        },
-        {
-          "type": "toml",
-          "path": "crates/event-indexer/Cargo.toml",
-          "jsonpath": "$.package.version"
-        },
-        {
-          "type": "toml",
-          "path": "crates/proposer/Cargo.toml",
-          "jsonpath": "$.package.version"
-        },
-        {
-          "type": "toml",
-          "path": "crates/protocol/Cargo.toml",
-          "jsonpath": "$.package.version"
-        },
-        {
-          "type": "toml",
-          "path": "crates/rpc/Cargo.toml",
-          "jsonpath": "$.package.version"
-        }
-      ]
+      "component": "taiko-alethia-client-rs"
     },
     "packages/ui-lib": {}
   }
