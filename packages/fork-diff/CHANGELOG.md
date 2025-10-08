@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.8.0](https://github.com/RogerLamTd/taiko-mono/compare/fork-diff-v0.7.0...fork-diff-v0.8.0) (2025-10-08)
+
+
+### Features
+
+* **fork-diff:** update forkdiff ([#19492](https://github.com/RogerLamTd/taiko-mono/issues/19492)) ([b02d134](https://github.com/RogerLamTd/taiko-mono/commit/b02d1346010fbfe3349534c7f374e6d2fc976330))
+
+
+### Chores
+
+* **main:** release fork-diff 0.7.0 ([#19493](https://github.com/RogerLamTd/taiko-mono/issues/19493)) ([6b863ad](https://github.com/RogerLamTd/taiko-mono/commit/6b863ad735a1a3f453c9727d13649f47f7c33aa9))
+
 ## [0.7.0](https://github.com/taikoxyz/taiko-mono/compare/fork-diff-v0.6.3...fork-diff-v0.7.0) (2025-05-20)
 
 
